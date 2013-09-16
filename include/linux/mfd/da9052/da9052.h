@@ -144,15 +144,15 @@ struct da9052_backlight_data {
 	struct da9052 *da9052;
 
 	int is_led1_present;
-	char led1_name[strlen("WLEN-nn")];
+	char led1_name[7];
 	int is_led2_present;
-	char led2_name[strlen("WLEN-nn")];
+	char led2_name[7];
 	int is_led3_present;
-	char led3_name[strlen("WLEN-nn")];
+	char led3_name[7];
 	int is_led4_present;
-	char led4_name[strlen("WLEN-nn")];
+	char led4_name[7];
 	int is_led5_present;
-	char led5_name[strlen("WLEN-nn")];
+	char led5_name[7];
 	int active_high;
 };
 
